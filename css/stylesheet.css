@@ -36,6 +36,10 @@ footer .icons{
   justify-content: space-between;
 }
 
+.wrapper{
+  max-width: 100%;
+}
+
 nav{
   max-width: 100%;
   background-color: white;
