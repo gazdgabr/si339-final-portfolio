@@ -50,8 +50,7 @@ nav{
 }
 
 nav .navContent{
-  width: 80vw;
-  margin: 1rem;
+  width: 95vw;
 
   display: flex;
   justify-content: space-between;
