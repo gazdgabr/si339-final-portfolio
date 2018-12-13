@@ -26,6 +26,12 @@
 	align-items: center;
 }
 
+.catIntro h1{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 15vh;
+}
+
 .galleryWrapper{
 	background-color: Lavender;
 	width: 95%;

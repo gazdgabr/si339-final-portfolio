@@ -63,7 +63,7 @@ nav{
 }
 
 nav .navContent{
-  width: 95vw;
+  width: 85vw;
 
   display: flex;
   justify-content: space-between;
@@ -110,8 +110,9 @@ nav a{
 }
 
 .indexWrapper nav{
-  background-color: #313131;
+  background-color: transparent;
 
+  max-height: 100%;
   margin-left: 5vw;
 
   display: flex;
@@ -123,8 +124,7 @@ nav .indexContent{
   max-width: 100%;
   height: 50vh;
   width: 70vw;
-
-  background-color: #313131;
+  background-color: transparent;
 
   display: flex;
   flex-direction: column;
@@ -260,8 +260,8 @@ nav .indexContent{
 
 .Card{
   max-width: 100%;
-  width: 96vw;
-  height: 90vh;
+  width: 90vw;
+  height: 135vw;
   margin-top: 1rem;
   margin-bottom: 1rem;
 
@@ -279,8 +279,8 @@ nav .indexContent{
 
 .Card .cardItem1{
   max-width: 100%;
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+  height: 50%;
   background-color: #00FFFF;
   border-radius: 8px 8px 0px 0px;
   overflow: hidden;
@@ -288,8 +288,8 @@ nav .indexContent{
 
 .Card .cardItem2{
   max-width: 100%;
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+  height: 50%;
   background-color: #00FF00;
   border-radius: 0px 0px 8px 8px;
 }
@@ -301,28 +301,139 @@ nav .indexContent{
 
 @media only screen and (min-width: 500px){
 
+
+
+  .Card{
+    width: 70vw;
+    height: 105vw;
+  }
+
+  .Card .cardItem1{
+    width: 100%;
+    height: 50%;
+  }
+
+  .Card .cardItem2{
+    width: 100%;
+    height: 50%;
+  }
+
   footer .icons{
     width: 50vw;
   }
 
-@media only screen and (min-width: 1000px){
+  nav .navContent{
+    width: 60vw;
+  }
+
+
+  .indexWrapper .indexIntro{
+    height: 30vh;
+  }
+
+  .indexWrapper nav{
+    width: 100vw;
+    margin-left: 0vw;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .indexContent{
+    height: 70vh;
+    width: 90vw;
+
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .indexTextA{
+    width: 60vw;
+    height: 20vh;
+    font-size: 100px;
+  }
+  .shapeA{
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 20vh;
+  }
+  .indexTextA:hover .shapeA{
+    transform: translateX(25vw) skewX(-10deg) scaleX(4.5);
+  }
+  .indexTextA a{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+
+    margin: 0;
+  }
+
+  .indexTextB{
+    width: 60vw;
+    height: 20vh;
+    font-size: 100px;
+  }
+  .shapeB{
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 20vh;
+  }
+  .indexTextB:hover .shapeB{
+    transform: translateX(25vw) skewX(-10deg) scaleX(4.5);
+  }
+  .indexTextB a{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+
+    margin: 0;
+  }
+
+  .indexTextC{
+    width: 60vw;
+    height: 20vh;
+    font-size: 100px;
+  }
+  .shapeC{
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 20vh;
+  }
+  .indexTextC:hover .shapeC{
+    transform: translateX(25vw) skewX(-10deg) scaleX(4.5);
+  }
+  .indexTextC a{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
+
+    margin: 0;
+  }
+
+@media only screen and (min-width: 800px){
 
 .Card{
-  width: 62vw;
-  height: 62vh;
+  width: 66vw;
+  height: 33vw;
   flex-direction: row;
 }
 
 .Card .cardItem1{
-  width: 31vw;
-  height: 62vh;
+  width: 50%;
+  height: 100%;
   background-color: #00FFFF;
   border-radius: 8px 0px 0px 8px;
 }
 
 .Card .cardItem2{
-  width: 31vw;
-  height: 62vh;
+  width: 50%;
+  height: 100%;
   background-color: #00FF00;
   border-radius: 0px 8px 8px 0px;
 }
@@ -332,7 +443,7 @@ footer .icons{
 }
 
 nav .navContent{
-  width: 30vw;
+  width: 35vw;
 }
 
 .indexWrapper{
@@ -342,32 +453,17 @@ nav .navContent{
   flex-direction: column;
 }
 
-.indexWrapper .indexIntro{
-  height: 30vh;
-}
-
-.indexWrapper nav{
-  width: 100vw;
-  margin-left: 0vw;
-
-  justify-content: center;
-  align-items: center;
-}
-
 nav .indexContent{
   height: 50vh;
   width: 90vw;
 
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 
 .indexTextA{
   width: 30vw;
   height: 30vh;
-  font-size: 100px;
 }
 .shapeA{
   top: 50%;
@@ -378,18 +474,10 @@ nav .indexContent{
 .indexTextA:hover .shapeA{
   transform: translateX(-50%) translateY(-50%) skewX(-10deg) scaleX(2.5);
 }
-.indexTextA a{
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-60%);
-
-  margin: 0;
-}
 
 .indexTextB{
   width: 30vw;
   height: 30vh;
-  font-size: 100px;
 }
 .shapeB{
   top: 50%;
@@ -400,18 +488,10 @@ nav .indexContent{
 .indexTextB:hover .shapeB{
   transform: translateX(-50%) translateY(-50%) skewX(-10deg) scaleX(2.5);
 }
-.indexTextB a{
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-60%);
-
-  margin: 0;
-}
 
 .indexTextC{
   width: 30vw;
   height: 30vh;
-  font-size: 100px;
 }
 .shapeC{
   top: 50%;
@@ -421,11 +501,4 @@ nav .indexContent{
 }
 .indexTextC:hover .shapeC{
   transform: translateX(-50%) translateY(-50%) skewX(-10deg) scaleX(2.5);
-}
-.indexTextC a{
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-60%);
-
-  margin: 0;
 }
