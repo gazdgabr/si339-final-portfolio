@@ -15,7 +15,7 @@
 }
 
 .catIntro{
-	height: 62vh;
+	height: 80vh;
 	width: 100%;
 	background-color: white;
 	margin-bottom: 1rem;
@@ -28,8 +28,11 @@
 
 .catIntro h1{
 	text-align: center;
-	margin-top: 5%;
-	margin-bottom: 15vh;
+	margin-bottom: 8vh;
+}
+
+.catText{
+	width: 90vw;
 }
 
 .galleryWrapper{
@@ -107,6 +110,19 @@
 }
 
 @media only screen and (min-width: 500px){
+
+.catIntro{
+	height: 70vh;
+}
+
+.catIntro h1{
+	margin-bottom: 4vh;
+}
+
+.catText{
+		width: 75vw;
+	}
+
 .galleryWrapper{
 	width:80vw;
 }
@@ -120,6 +136,15 @@
 }
 
 @media only screen and (min-width: 1000px){
+
+.catIntro{
+	height: 66vh;
+}
+
+.catText{
+	width: 40vw;
+	}
+
 
 .galleryWrapper{
 		width:70vw;
