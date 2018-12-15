@@ -281,7 +281,7 @@ nav .indexContent{
   max-width: 100%;
   width: 100%;
   height: 50%;
-  background-color: #00FFFF;
+  background-color: Lavender;
   border-radius: 8px 8px 0px 0px;
   overflow: hidden;
 }
@@ -290,10 +290,22 @@ nav .indexContent{
   max-width: 100%;
   width: 100%;
   height: 50%;
-  background-color: #00FF00;
+  background-color: Lavender;
   border-radius: 0px 0px 8px 8px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
+.Card .cardItem1 img{
+  max-width: 100%;
+}
+
+.textWrapper{
+  margin: 5vh;
+  text-align: left;
+}
 
 
 
@@ -416,25 +428,23 @@ nav .indexContent{
     margin: 0;
   }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
 
 .Card{
-  width: 66vw;
-  height: 33vw;
+  width: 80vw;
+  height: 40vw;
   flex-direction: row;
 }
 
 .Card .cardItem1{
   width: 50%;
   height: 100%;
-  background-color: #00FFFF;
   border-radius: 8px 0px 0px 8px;
 }
 
 .Card .cardItem2{
   width: 50%;
   height: 100%;
-  background-color: #00FF00;
   border-radius: 0px 8px 8px 0px;
 }
 
