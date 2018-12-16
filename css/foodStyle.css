@@ -95,7 +95,7 @@
 
   .Card{
     width: 40vw;
-    height: 50vw;
+    height: 45vw;
   }
 
   .Card .cardItem1{
@@ -106,7 +106,7 @@
 
   .Card .cardItem2{
     width: 100%;
-    height: 20vw;
+    height: 15vw;
     border-radius: 0px 0px 8px 8px;
   }
 
@@ -123,7 +123,7 @@
 
   .Card{
     width: 25vw;
-    height: 59vw;
+    height: 64vw;
   }
 
   .Card .cardItem1{
@@ -134,7 +134,7 @@
 
   .Card .cardItem2{
     width: 100%;
-    height: 34vw;
+    height: 39vw;
     border-radius: 0px 0px 8px 8px;
   }
 
