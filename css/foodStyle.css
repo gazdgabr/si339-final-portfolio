@@ -1,4 +1,27 @@
 
+.foodWrapper .intro{
+
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+	margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.foodWrapper .intro h1{
+	margin-bottom: 15vh;
+}
+
+.foodText{
+	width: 90vw;
+  margin-bottom: 10vh
+}
+
 .contentWrapper{
   width: 100vw;
   display: flex;
@@ -86,6 +109,19 @@
 
 @media only screen and (min-width: 768px){
 
+  .foodWrapper .intro{
+    height: 75vh;
+  }
+
+  .foodWrapper .intro h1{
+  	margin-bottom: 15vh;
+  }
+
+  .foodText{
+  	width: 60vw;
+    margin-bottom: 10vh
+  }
+
   .recipeWrapper{
     width: 85vw;
 
@@ -113,6 +149,19 @@
 }
 
 @media only screen and (min-width: 960px){
+
+  .foodWrapper .intro{
+    height: 75vh;
+  }
+
+  .foodWrapper .intro h1{
+  	margin-bottom: 15vh;
+  }
+
+  .foodText{
+  	width: 40vw;
+    margin-bottom: 10vh
+  }
 
   .recipeWrapper{
     width: 80vw;
