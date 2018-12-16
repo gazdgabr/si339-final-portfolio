@@ -108,7 +108,7 @@
 	transform: translateY(-7px);
 }
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 768px){
 
 .catIntro{
 	height: 75vh;
@@ -134,7 +134,7 @@
 
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 960px){
 
 .catIntro{
 	height: 70vh;
