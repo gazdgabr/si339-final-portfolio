@@ -264,7 +264,7 @@ nav .indexContent{
 .Card{
   max-width: 100%;
   width: 90vw;
-  height: 155vw;
+  height: 180vw;
   margin-top: 1rem;
   margin-bottom: 1rem;
 
@@ -292,7 +292,7 @@ nav .indexContent{
 .Card .cardItem2{
   max-width: 100%;
   width: 100%;
-  height: 87.5vw;
+  height: 112.5vw;
   background-color: Lavender;
   border-radius: 0px 0px 8px 8px;
 
@@ -318,7 +318,7 @@ nav .indexContent{
 
 
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 768px){
   .intro{
     height: 75vh;
   }
@@ -326,7 +326,7 @@ nav .indexContent{
 
   .Card{
     width: 70vw;
-    height: 130vw;
+    height: 90vw;
   }
 
   .Card .cardItem1{
@@ -336,7 +336,7 @@ nav .indexContent{
 
   .Card .cardItem2{
     width: 100%;
-    height: 77.5vw;
+    height: 37.5vw;
   }
 
   footer .icons{
@@ -437,7 +437,7 @@ nav .indexContent{
     margin: 0;
   }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 960px){
 .intro{
   height: 70vh;
 }
