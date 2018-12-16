@@ -18,7 +18,7 @@
 
 .Card{
   width: 90vw;
-  height: 105vw;
+  height: 115vw;
   flex-direction: column;
   overflow: hidden;
   background-color: none;
@@ -35,7 +35,7 @@
 
 .Card .cardItem2{
   width: 100%;
-  height: 37.5vw;
+  height: 47.5vw;
   border-radius: 0px 0px 8px 8px;
 
   display: flex;
@@ -123,7 +123,7 @@
 
   .Card{
     width: 25vw;
-    height: 44vw;
+    height: 49vw;
   }
 
   .Card .cardItem1{
@@ -134,7 +134,7 @@
 
   .Card .cardItem2{
     width: 100%;
-    height: 19vw;
+    height: 24vw;
     border-radius: 0px 0px 8px 8px;
   }
 
