@@ -1,0 +1,141 @@
+
+.contentWrapper{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipeWrapper{
+  width: 90vw;
+  max-width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.Card{
+  width: 90vw;
+  height: 95vw;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: none;
+  box-shadow: none;
+}
+
+.Card .cardItem1{
+  width: 100%;
+  height: 67.5vw;
+  border-radius: 8px 8px 0px 0px;
+  background-color: none;
+
+}
+
+.Card .cardItem2{
+  width: 100%;
+  height: 27.5vw;
+  border-radius: 0px 0px 8px 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.accordion {
+  background-color: lightSteelBlue;
+  color: #444;
+  cursor: pointer;
+  height: 3em;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  border-radius: 0px 0px 0px 0px;
+}
+
+.panel {
+  height: 100%;
+  padding: 0.5em;
+  background-color: transparent;
+  display: none;
+  overflow: hidden;
+}
+
+
+@media only screen and (min-width: 600px){
+
+  .recipeWrapper{
+    width: 85vw;
+
+    grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 5vw;
+  }
+
+  .Card{
+    width: 40vw;
+    height: 60vw;
+  }
+
+  .Card .cardItem1{
+    width: 100%;
+    height: 30vw;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .Card .cardItem2{
+    width: 100%;
+    height: 30vw;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+  .recipeWrapper{
+    width: 80vw;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1.6vw;
+  }
+
+  .Card{
+    width: 25vw;
+    height: 44vw;
+  }
+
+  .Card .cardItem1{
+    width: 100%;
+    height: 25vw;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .Card .cardItem2{
+    width: 100%;
+    height: 19vw;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+}
